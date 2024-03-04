@@ -1,0 +1,51 @@
+
+.jobb{
+    background-color: #DBE8FF;
+    height: 760px;
+}
+.job h2{
+    text-align: center;
+    font-size: 30px;
+    margin-top:200px;
+
+  
+}
+.job2{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 40px;
+}
+.job2 .card{
+   background-color:#FFFFFF;
+   color: black;
+}
+.carddd {
+    padding-top: 30px;
+    width: 1140px;
+    height: 200px;
+    top: 1260px;
+    left: 129px;
+   background: #6170F8;
+
+    margin-left: 200px;
+    margin-top: 40px;
+    border-top-right-radius: 70px; /* Curving the top right corner */
+    border-bottom-left-radius: 70px; /* Curving the bottom left corner */
+}
+
+@media screen and (max-width: 768px) {
+    .job2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 40px;
+        margin-top: 40px;
+    }
+    .jobb{
+        height: 1775px;
+    }
+    .carddd{
+        display: none
+    }
+}

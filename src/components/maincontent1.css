@@ -1,0 +1,74 @@
+
+body{
+    background-color: #C3D8FF;
+}
+.maincontent1{
+    height: 355px;
+}
+.h11{
+    display: none;
+}
+.h1{
+    margin-left: 153px;
+  margin-top: 100px;
+  width: 765px;
+  height: 189px;
+  font-size: 42px;
+  line-height: 63px;
+}
+.p1{
+    width: 272px;
+height: 21px;
+
+margin-left: 155px;
+
+font-size: 14px;
+font-weight: 500;
+line-height: 21px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.button{
+    display: none;
+}
+@media screen and (max-width: 768px) {
+    .maincontent1{
+        height: 661px;
+    }
+    .h1 {
+        margin-left: 5%; /* Adjust margin-left for smaller screens */
+        width: 90%; /* Adjust width for smaller screens */
+        font-size: 6vw; /* Adjust font-size for smaller screens */
+        line-height: 9vw; /* Adjust line-height for smaller screens */
+    }
+
+    .p1 {
+        width: 80%; /* Adjust width for smaller screens */
+        margin-left: 5%; /* Adjust margin-left for smaller screens */
+        font-size: 17px; /* Adjust font-size for smaller screens */
+        line-height: 36px; /* Adjust line-height for smaller screens */
+        
+    
+    }
+ 
+    .button {
+        display: block;
+        width: 34%; /* Adjust width for smaller screens */
+        margin: 20px auto; /* Center the button */
+        padding: 10px 20px; /* Adjust padding as needed */
+        background-color: #007bff; /* Adjust button color as needed */
+        color: #fff; /* Adjust button text color as needed */
+        border: none;
+        border-radius: 5px;
+        font-size: 16px; /* Adjust font size as needed */
+        cursor: pointer;
+        margin-top: 60px;
+    }
+    .h11{
+        display: block;
+        font-size: 32px;
+        text-align: center;
+        padding-top: 50px;
+    }
+}

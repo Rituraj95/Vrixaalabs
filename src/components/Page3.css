@@ -1,0 +1,62 @@
+
+.page3{
+    background-color:  #EDFFDB ;
+ 
+height: 343px;
+padding-top: 100px;
+
+}
+.page3 .headingText{
+    text-align: center;
+   
+font-size: 32px;
+font-weight: 600;
+line-height: 36px;
+letter-spacing: 0.1em;
+
+
+    
+    
+}
+.searchbox{
+   margin-left: 362px;
+}
+.cardd{
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card{
+    padding-top: 30px;
+    width: 353px;
+height: 200px;
+top: 1260px;
+left: 129px;
+border-radius: 40px;
+background: #083c9c;
+;
+
+}
+@media screen and (max-width: 768px) {
+    .page3{
+        padding-top: 20px;
+        height: 773px;
+    }
+   .page3 .headingText{
+    font-size: 33px;
+  font-weight: 600;
+  line-height: 42px;
+  text-align:start;
+  letter-spacing: 0.0em;
+  padding-left: 20px;
+   }
+   .cardd{
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+}
